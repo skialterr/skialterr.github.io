@@ -1,0 +1,135 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#F1EFEF;
+  }
+nav{
+    position: sticky;
+    height: 150px;
+    top: 0;
+}
+header{
+    position:sticky;
+    width: 100%;
+    height: 160px;
+    max-width: 1200px;
+    padding-block: 1rem;
+    margin-inline: auto;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    z-index: 9999;
+    background-color: #CCCBAA;
+
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+.header-h1{
+    font-size: 30px;
+}
+article.table{
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+div.RewPendPres{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.table{
+  display: flex;
+  padding: 1rem 1rem 1rem 1rem;
+}
+main{
+    padding-left: .2rem;
+    padding-right: .2rem;
+    width: 100%;
+    max-width: 1200px;
+    padding-block: 1rem;
+    margin-inline: auto;
+   
+    display: flex;
+    justify-content: space-around;
+    gap: 1.3rem;
+}
+.RewPendPres{
+    width: 100%;
+    max-width: 1200px;
+    padding-block: 1rem;
+    margin-inline: auto;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;
+  }
+  main aside .social-media {
+    height: 100%;
+    display: flex;
+  }
+  main aside .social-media ul {
+    padding: 1.5rem 1rem;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin: auto;
+    background-color: #7D7C7C;
+    display: flex;  flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  main aside .social-media li {
+    list-style-type: none;
+  }
+
+  main aside .social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  main aside .social-media li a:hover {
+    color: #191717;
+  }
+  svg{
+    width: 30px;
+  }
+
+@media screen and (max-width: 768px) {
+    header{
+      flex-direction: column;
+    }
+    main {
+        flex-direction: column;
+        padding: 1rem 3rem;
+      }
+     
+      main .article{
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      main .article-RewPendPres{
+        flex-direction: column;
+        gap: 2rem;
+      }
+     
+      footer{
+        flex-direction: column
+      }
+  }
