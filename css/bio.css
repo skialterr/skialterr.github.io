@@ -38,6 +38,7 @@ header{
     font-size: 30px;
 }
 article.table{
+    
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
@@ -116,7 +117,7 @@ main aside {
     }
     main {
         flex-direction: column;
-        padding: 1rem 3rem;
+        padding: 1rem;
       }
      
       main .article{
