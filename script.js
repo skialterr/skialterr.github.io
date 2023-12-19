@@ -1,0 +1,1 @@
+alert('Hai, Kamu. Welcome to My Website!');
