@@ -179,10 +179,18 @@ nav{
   flex-flow:column nowrap;
   gap: 1rem;
 }
-.image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9{
+.image0,.image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9{
   background-color: #7D7C7C;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 5px;
+}
+.content-image0{
+  background-color: #CCCBAA;
+  border-radius: 5px;
+  gap: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
 }
 .content-image1{
   background-color: #CCCBAA;
@@ -330,10 +338,10 @@ nav{
         flex-direction: column;
         gap: 2rem;
       }
-      .image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9{
+      .image0,.image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9{
         align-self: center;
       }
-      .content-image1,.content-image2,.content-image3,.content-image4,.content-image5,.content-image6,.content-image7,.content-image8,.content-image9{
+      .content-image0,.content-image1,.content-image2,.content-image3,.content-image4,.content-image5,.content-image6,.content-image7,.content-image8,.content-image9{
         gap: 1rem;
         flex-direction: column;
       }
